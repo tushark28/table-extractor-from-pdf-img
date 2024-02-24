@@ -14,5 +14,23 @@ Error handling: Handles invalid file formats and potential errors gracefully.
 ## Requirements:
 
 Python 3.x
+
 Django web framework
+
 Necessary libraries (install using pip install -r requirements.txt)
+
+## TODOs and Assumptions:
+
+As UI wasn't the main concerns of the Assignment, I kept it simple.
+
+It takes the first page of the PDF file for table detection, a logic to append all the data should
+be applied.
+
+It doesn't use a DB to store and load files from, It stores files internally as of now just for a 
+basic demo.
+
+No authentication
+
+The app currently doesn't take it to consideration that many people can visit and request to download the file at the same time.
+
+
