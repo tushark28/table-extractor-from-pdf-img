@@ -1,0 +1,7 @@
+venv
+migrations
+__pycache__
+/dlai/settings.py
+files
+db.sqlite3
+db.sqlite3-journal
